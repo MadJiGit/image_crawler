@@ -1,0 +1,18 @@
+{
+    "name": "img-counter/crawler",
+    "description": "Image crawler that counts images on web pages",
+    "type": "project",
+    "require": {
+        "php": ">=8.1",
+        "guzzlehttp/guzzle": "^7.0",
+        "symfony/dom-crawler": "^6.0",
+        "symfony/css-selector": "^6.0",
+        "ext-pdo": "*",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "files": [
+            "config.php"
+        ]
+    }
+}
