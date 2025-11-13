@@ -25,7 +25,8 @@ $dbCharset = $_ENV['DB_CHARSET'] ?? 'utf8mb4';
  * @return PDO
  * @throws PDOException
  */
-function getDbConnection() {
+function getDbConnection(): PDO
+{
     global $dbHost, $dbName, $dbUser, $dbPass, $dbCharset;
 
     try {
